@@ -1,0 +1,11 @@
+# actuator相关配置
+management:
+  endpoint:
+    health:
+      # 展示节点详情
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        # 暴露端口
+        include: '*'
